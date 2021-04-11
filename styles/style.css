@@ -1,6 +1,21 @@
+.navbar{
+    background-color: rgb(206, 89, 89);
+    overflow: hidden;
+}  
+.navbar a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 17px;
+    /* display: inline;  */
+} 
+navbar a.active {
+    background-color: rgb(240, 240, 14);
+    color: white;
+  }
 .home {
-    height: 200vw; 
-    width: 150vmin;
+    height: 150vmax; 
     background-image: linear-gradient(
         to bottom,
         rgba(5, 9, 10, 0.3),
@@ -8,15 +23,38 @@
         url(../image/frontpage.jpg);   
     background-size: cover; 
     background-repeat: no-repeat;
-    background-position: top;
     position: relative;
+    overflow: hidden;
+
 }
+.home-text{
+    color: white;
+    font: small-caption;
+    text-align: center;
+}
+
 .projects{
-    height: 100vw; 
-    width: 100vh;
+    color: white;
+    left: 10px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(129, 161, 129);
+}  
+
+
+.projects-image{
+    height: 50vw; 
+    width: 100vh; 
     background-color: rgb(219, 194, 198);
-    background-size: cover; 
+    background-image:linear-gradient(
+        to bottom,
+        rgba(5, 9, 10, 0.3),
+        rgba(8, 12, 14, 0.6)),
+         url(../image/project.jpg);
+    height: 100vmax;
+    position:left ;
+    background-size: auto,contain; 
     background-repeat: no-repeat;
-    background-position: top;
-    position: relative;
+    background-position: cover;
+
 }
