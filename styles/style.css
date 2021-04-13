@@ -1,5 +1,7 @@
 .navbar{
-    background-color: rgb(206, 89, 89);
+    height: 5vmax;
+    width: inherit;
+    background-color: rgb(37, 29, 29);
     overflow: hidden;
 }  
 .navbar a{
@@ -7,54 +9,64 @@
     color: white;
     text-align: center;
     padding: 20px 20px;
-    font-size: 17px;
-    /* display: inline;  */
+    font-size: 20px;
 } 
-navbar a.active {
-    background-color: rgb(240, 240, 14);
-    color: white;
-  }
-.home {
-    height: 150vmax; 
+  .container{
+        height: auto;
+        width: 100%;
+        min-width: 1000px;
+        border: 10px solid rgb(6, 7, 6);
+        margin: auto;   
+        background-color: rgb(148, 179, 179);
+  
+    }
+.home-image{
+    height: 60vmax;
+    max-width: 100%;
     background-image: linear-gradient(
         to bottom,
-        rgba(5, 9, 10, 0.3),
-        rgba(8, 12, 14, 0.6)),
+        rgba(176, 226, 238, 0.3),
+        rgba(122, 138, 146, 0.6)),
         url(../image/frontpage.jpg);   
-    background-size: cover; 
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
-    position: relative;
+    background-position: center;
+    /* position: relative; */
     overflow: hidden;
 
 }
 .home-text{
-    color: white;
     font: small-caption;
     text-align: center;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    color: rgb(218, 214, 224);
 }
-
-.projects{
-    color: white;
-    left: 10px;
-    position: sticky;
-    top: 0;
-    background-color: rgb(129, 161, 129);
-}  
-
 
 .projects-image{
-    height: 50vw; 
-    width: 100vh; 
-    background-color: rgb(219, 194, 198);
-    background-image:linear-gradient(
-        to bottom,
-        rgba(5, 9, 10, 0.3),
-        rgba(8, 12, 14, 0.6)),
-         url(../image/project.jpg);
-    height: 100vmax;
-    position:left ;
-    background-size: auto,contain; 
+    height: 60vmax;   
+    width: 100%;
+    background-color: rgb(219, 200, 204);
+    background-image: url(../image/photo1.jpeg);
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+.all-text{
+    color: rgb(5, 3, 3);
+    font:medium;
+    text-align: center;
+    position:relative;
+}
+
+.contact-image {
+    background-image: url(../image/contact.jpg); 
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+
