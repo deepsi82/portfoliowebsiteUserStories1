@@ -11,14 +11,13 @@
     padding: 20px 20px;
     font-size: 20px;
 } 
-  .container{
-        height: auto;
-        width: 100%;
-        min-width: 1000px;
-        border: 10px solid rgb(6, 7, 6);
-        margin: auto;   
-        background-color: rgb(148, 179, 179);
-  
+.container{
+    height: auto;
+    width: 100%;
+    min-width: 1000px;
+    border: 10px solid rgb(6, 7, 6);
+    margin: auto;   
+    background-color: rgb(148, 179, 179);
     }
 .home-image{
     height: 60vmax;
@@ -31,9 +30,7 @@
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-position: center;
-    /* position: relative; */
     overflow: hidden;
-
 }
 .home-text{
     font: small-caption;
@@ -43,8 +40,24 @@
     left: 30%;
     color: rgb(218, 214, 224);
 }
+.myimage{
+    height: 60vw;  
+    width: 100%;
+    background-color: rgb(219, 200, 204);
+    background-image: url(../image/myphoto.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.aboutme-text{
+    color: rgb(5, 3, 3);
+    font-size: xx-large;
+    text-align: center;
+    position:static;
+}
 
-.projects-image{
+
+.project-image{
     height: 60vmax;   
     width: 100%;
     background-color: rgb(219, 200, 204);
@@ -54,19 +67,42 @@
     background-position: center;
     
 }
-.all-text{
+.project-text{
     color: rgb(5, 3, 3);
     font:medium;
     text-align: center;
     position:relative;
 }
-
 .contact-image {
+    height: 60vmax;   
+    width: 100%;
+    background-color: rgb(219, 200, 204);
     background-image: url(../image/contact.jpg); 
-    height: 100%; 
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 100% 100%;
+    background-position: center;
+}
+.contact-text{
+    color: rgb(5, 3, 3);
+    font-size: x-large;
+    text-align: right;
+    top: 30%;
+    left: 50%;
+    position:absolute;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+margin: 5px 2px;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa :hover {
+    opacity: 0.7;
+} 
